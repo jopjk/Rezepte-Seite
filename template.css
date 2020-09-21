@@ -22,9 +22,10 @@ h3 {
 }
 
 h4 {
+    font-size: 1.5em;
     border: 3px solid #e06b6b;
     border-radius: 3px;
-    width: fit-content;
     padding: 14px;
+    margin: 0 30%;
 }
   
