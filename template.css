@@ -9,9 +9,9 @@ body {
 
 button {
     background: none;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 3px;
-    color: white;
+    color: #b1b1b1;
     font-family: 'Dancing Script', cursive;
     font-size: 1.3em;
     padding: 7px;
@@ -20,6 +20,10 @@ button {
 h3 {
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+h1 {
+    font-size: 4em;
+    color: #f67171;
 
 h4 {
     font-size: 1.5em;
