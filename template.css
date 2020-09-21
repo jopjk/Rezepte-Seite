@@ -13,10 +13,16 @@ button {
     border-radius: 3px;
     color: white;
     font-family: 'Dancing Script', cursive;
+    font-size: 1.3em;
+    padding: 7px;
 }
 
 h3 {
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+h4 {
+    border: 1px solid white;
+    border-radius: 3px;
 
   
