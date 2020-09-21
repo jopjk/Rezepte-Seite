@@ -4,6 +4,19 @@ body {
     font-family: 'Dancing Script', cursive;
     background: #0C154A;
     text-align: center;
+    padding: 25px 25px;
+}
+
+button {
+    background: none;
+    border: 1px solid;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
   
