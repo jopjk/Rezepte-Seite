@@ -22,7 +22,9 @@ h3 {
 }
 
 h4 {
-    border: 1px solid white;
+    border: 3px solid #e06b6b;
     border-radius: 3px;
+    width: fit-content;
+    padding: 14px;
 }
   
