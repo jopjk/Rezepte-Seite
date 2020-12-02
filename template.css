@@ -41,18 +41,19 @@ h4 {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  -webkit-animation: fadeInOut 6s;
-  animation: fadeInOut 6s;
+
 }
 
 .snow {
   border-radius: 50%;
-  opacity: 0.8;
+  opacity: 0;
   position: absolute;
   top: -100vh;
   animation-name: fall;
   animation-timing-function: linear;
   animation-iteration-count: 2;
+  -webkit-animation: fadeInOut 6s;
+  animation: fadeInOut 6s;
 }
 
 .layer1 {
@@ -102,10 +103,10 @@ h4 {
         opacity: 0;
     }
     16% {
-       opacity: 1;
+       opacity: 0,8;
     }
     84% {
-       opacity: 1;
+       opacity: 0,8;
     }
     100% {
        opacity: 0;
