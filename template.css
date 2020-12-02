@@ -41,7 +41,6 @@ h4 {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(farthest-corner at 30vw 20vh, #7397a1 1%, #3f2c41 100%);
 }
 
 .snow {
@@ -51,7 +50,7 @@ h4 {
   top: -100vh;
   animation-name: fall;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 15;
 }
 
 .layer1 {
