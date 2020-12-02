@@ -41,6 +41,8 @@ h4 {
 .wrapper {
   width: 100vw;
   height: 100vh;
+  -webkit-animation: fadeInOut 6s;
+  animation: fadeInOut 6s;
 }
 
 .snow {
@@ -93,4 +95,19 @@ h4 {
   100% {
     transform: translateY(200vh);
   }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    16% {
+       opacity: 1;
+    }
+    84% {
+       opacity: 1;
+    }
+    100% {
+       opacity: 0;
+    }
 }
