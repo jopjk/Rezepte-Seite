@@ -50,7 +50,7 @@ h4 {
   top: -100vh;
   animation-name: fall;
   animation-timing-function: linear;
-  animation-iteration-count: 15;
+  animation-iteration-count: 2;
 }
 
 .layer1 {
