@@ -46,11 +46,12 @@ h4 {
 .ani-wrapper {
   -webkit-animation: fadeInOut 6s;
   animation: fadeInOut 6s;
+  opacity: 0;
 }
 
 .snow {
   border-radius: 50%;
-  opacity: 0;
+  opacity: 0.8;
   position: absolute;
   top: -100vh;
   animation-name: fall;
